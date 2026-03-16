@@ -47,3 +47,4 @@ func (r *AuthRepoImpl) CreateUser(ctx context.Context, req *dto.UserCreateReques
 	}
 	return user, nil
 }
+
